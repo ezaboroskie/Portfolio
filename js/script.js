@@ -190,6 +190,7 @@ $(function() {
         $('#inputEmail').val('');
         $('#inputPhone').val('');
         $('#inputMessage').val('');
+        
     }).fail(function(data) {
       
         // Making the formMessages div to have the 'error' class

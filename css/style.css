@@ -629,6 +629,44 @@ h6 {
 .progress-bar {
   transition-duration: 3s;
 }
+.skills-container{
+  display: flex
+}
+ul.special{
+  list-style: none;
+  padding-left: 0;
+  cursor: default;
+  position: relative;
+}
+
+ul.special li{
+  -moz-transition: top .15s ease-in-out;
+  -webkit-transition: top .15s ease-in-out;
+  -ms-transition: top .15s ease-in-out;
+  transition: top .15s ease-in-out;
+  position: relative;
+  display: inline-block;
+  top: 0;
+  padding: 2em 0 0 2em;
+}
+
+span.label{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+
+}
+
+.hover-up:hover{
+  transform: translateY(-10px);
+}
+
+li{
+  text-align: center;
+}
 /***********************************************************
   8. Portfolio Section
 ************************************************************/
